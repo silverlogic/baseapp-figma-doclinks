@@ -1,0 +1,16 @@
+{
+  "name": "baseapp-figma-doclinks",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Figma plugin that writes documentationLinks (Design Mode) and Dev Resources (Dev Mode) onto components from a links file selected at runtime.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.125.0",
+    "esbuild": "^0.28.0",
+    "typescript": "5.9.2"
+  }
+}

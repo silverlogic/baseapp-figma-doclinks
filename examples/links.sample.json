@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "ownedUrlPatterns": [
+    "^https://storybook\\.baseapp\\.io/",
+    "^https://github\\.com/silverlogic/baseapp-frontend/",
+    "^https://(v\\d+\\.)?mui\\.com/(material-ui|x)/"
+  ],
+  "links": [
+    {
+      "figmaName": "Avatar",
+      "uris": [
+        { "name": "MUI docs", "url": "https://v5.mui.com/material-ui/react-avatar/" },
+        {
+          "name": "Storybook",
+          "url": "https://storybook.baseapp.io/?path=/docs/baseapp-frontend_baseapp-frontend-designsystem-avatars-avatarwithplaceholder--docs"
+        },
+        {
+          "name": "Source",
+          "url": "https://github.com/silverlogic/baseapp-frontend/blob/master/packages/design-system/components/web/avatars/AvatarWithPlaceholder/index.tsx"
+        }
+      ]
+    },
+    {
+      "figmaName": "Badge",
+      "uris": [
+        { "name": "MUI docs", "url": "https://v5.mui.com/material-ui/react-badge/" }
+      ]
+    }
+  ]
+}
